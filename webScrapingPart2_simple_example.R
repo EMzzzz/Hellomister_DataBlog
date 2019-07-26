@@ -1,12 +1,4 @@
 
-
-library(httr)
-library(RSelenium)
-library(rvest)
-library(xml2)
-library(tidyverse)
-library(lubridate)
-
         
 webpage <- read_html("http://monumentaustralia.org.au/search/display/30861-%60last-man%60-and--%60last-shilling%60-monument")
         
