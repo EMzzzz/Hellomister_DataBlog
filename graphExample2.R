@@ -1,4 +1,4 @@
-install.packages("wesanderson")
+##libraries
 library(tidyverse)
 library(lubridate)
 library(ggraph)
@@ -8,7 +8,7 @@ library(grid)
 library(wesanderson)
 library(egg)
 
-
+##data file import
 
 cookExample <- readr::read_csv("https://raw.githubusercontent.com/KellyTall/Hellomister_DataBlog/master/cookExample.csv")
 
@@ -26,46 +26,18 @@ cook_edge <- cookExample %>%
         summarise(weight = n()) %>% 
         na.omit()
 
-# View(cook_edge)
+
 
 ## create your graph files
 cook_tidy <- tbl_graph(edges=cook_edge, directed = TRUE)
 
 
-##plot your graphs
-
-cook1 <- ggraph(cook_tidy, layout = 'linear') + 
-        geom_edge_arc()
-
-cook2 <- ggraph(cook_tidy, layout = 'linear') + 
-        geom_edge_arc(aes(width=weight))
-
-# cook2
-
-cook3 <- ggraph(cook_tidy, layout = 'linear') + 
-                geom_edge_arc(aes(width=weight), alpha=.5) 
-        
-# cook3
-
-cook4 <- ggraph(cook_tidy, layout = 'linear') + 
-        geom_edge_arc(aes(width=weight, colour=Figure), alpha=.5)
-
-# cook4
-
-cook5 <- ggraph(cook_tidy, layout = 'linear') + 
-        geom_edge_arc(aes(width=weight, colour=Figure), alpha=.5) +
-        theme_bw()+
-        scale_x_continuous(limits=c(1770, 2020), breaks = c(1770, 1870, 1970, 2000)) 
-# cook5
+##plot your arc plot
 
 
-cook6 <- ggraph(cook_tidy, layout = 'linear') + 
-        geom_edge_arc(aes(width=weight, colour=Monument_Type), alpha=.5) +
-        theme_bw()+
-        scale_x_continuous(limits=c(1770, 2020), breaks = c(1770, 1870, 1970, 2000)) 
 
+##theme
 cook_theme <-  theme(axis.line=element_blank(),
-                     # axis.text.x=element_blank(),
                      axis.text.y=element_blank(),
                      axis.ticks=element_blank(),
                      axis.title.x=element_blank(),
@@ -75,41 +47,40 @@ cook_theme <-  theme(axis.line=element_blank(),
                      panel.grid.major=element_blank(),
                      panel.grid.minor=element_blank(),
                      plot.background=element_blank(),
-                     plot.title = element_text(family="Helvetica Neue", size=20, face="plain"),
+                     plot.title = element_text(family="Helvetica Neue Light", size=20, face="plain"),
                      plot.subtitle =  element_text(family="Helvetica Neue Light", size=12.9, face="plain"),
-                     legend.background = element_blank())
+                     legend.text =  element_text(family="Helvetica Neue Light", face="plain"),
+                     legend.title = element_text(family="Helvetica Neue Light", face="plain"),
+                     axis.text = element_text(family="Helvetica Neue Light", face="plain", size=6),
+                     legend.key = element_blank())
 
 # names(wes_palettes)
-
+##creating object with HEX colours from Wes Andreson Colour Palette /- here using Moonrise 3
 mr3 <- wes_palettes$Moonrise3
-wes_palette("Moonrise3")
+# wes_palette("Moonrise3")
 
-
-dot1 <- ggplot(cookExample, aes(Dedication_Year, fill=Figure), colour="white") + 
+cook_dot <- ggplot(cookExample, aes(Dedication_Year, fill=Figure)) + 
         geom_vline(xintercept = c(1770, 1870, 1970, 2000), colour="lightgray")+
         geom_dotplot(binwidth = .1, stackgroups = TRUE, binpositions = "all", dotsize = 10, stackdir = "down", stroke=0)+
         scale_x_continuous(limits=c(1770, 2020), breaks = c(1770, 1870, 1970, 2000)) +
         cook_theme +
         theme(legend.position = "none",
               title = element_blank()) +
-        scale_fill_manual(values = mr3[c(1,3,5)])
+        scale_fill_manual(values = mr3[c(1,3,5)]) ##this selects the 1, 2 and 3 HEX colours from the palette in object mr3
         
         
 
-cook5 <- ggraph(cook_tidy, layout = 'linear') + 
+cook_arc <- ggraph(cook_tidy, layout = 'linear') + 
         geom_vline(xintercept = c(1770, 1870, 1970, 2000), colour="lightgray")+
         geom_edge_arc(aes(width=weight,edge_colour=Figure), alpha=.5) +
-        scale_edge_colour_manual(values = mr3[c(1,3,5)], name = "Name")+
-        scale_edge_linetype_identity(scale_name="Number of Monuments")+
+        scale_edge_colour_manual(values = mr3[c(1,3,5)], name = "Figure")+
+        scale_edge_width(name="Number of Monuments")+
         scale_x_continuous(limits=c(1770, 2020), breaks = c(1770, 1870, 1970, 2000), position = "top") +
         cook_theme +
         labs(title="Visualising Cook Memorials",
              subtitle="Monuments dedicated to the voyage of the Endeavour from 1770 until today") 
-        
-        
-        
 
-ggarrange(cook5, dot1, heights = c(8, 4))
+print <- ggarrange(cook_arc, cook_dot, heights = c(10, 4))
 
 
 
