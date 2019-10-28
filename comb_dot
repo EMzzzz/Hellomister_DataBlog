@@ -1,147 +1,259 @@
-Year,Figure,Monument_Type,value,id
-1810,macquarie,Grave,1,1
-1818,macquarie,Monument,1,2
-1844,banks,Monument,1,3
-1854,cook,Monument,1,4
-1870,cook,Monument,1,5
-1879,cook,Sculpture,1,6
-1879,cook,Sculpture,1,7
-1888,cook,Monument,1,8
-1890,macquarie,Technology,1,9
-1895,macquarie,Monument,1,10
-1900,macquarie,Monument,1,11
-1900,macquarie,Plaque,1,12
-1906,cook,Sculpture,1,13
-1914,solander,Monument,1,14
-1920,macquarie,Monument,1,15
-1924,cook,Monument,1,16
-1925,cook,Monument,1,17
-1926,macquarie,Monument,1,18
-1926,cook,Monument,1,19
-1929,macquarie,Monument,1,20
-1930,macquarie,Monument,1,21
-1933,cook,Monument,1,22
-1934,cook,Structure,1,23
-1934,cook,Plaque,1,24
-1936,macquarie,Monument,1,25
-1938,macquarie,Technology,1,26
-1938,macquarie,Garden,1,27
-1939,macquarie,Monument,1,28
-1939,macquarie,Monument,1,29
-1945,macquarie,Trees,1,30
-1947,banks,Monument,1,31
-1948,cook,Plaque,1,32
-1951,macquarie,Monument,1,33
-1953,cook,Monument,1,34
-1956,macquarie,Monument,1,35
-1960,macquarie,Monument,1,36
-1961,macquarie,Plaque,1,37
-1961,cook,Monument,1,38
-1962,macquarie,Monument,1,39
-1964,banks,Sculpture,1,40
-1965,macquarie,Plaque,1,41
-1967,macquarie,Plaque,1,42
-1967,macquarie,Monument,1,43
-1968,macquarie,Plaque,1,44
-1968,macquarie,Monument,1,45
-1970,cook,Monument,1,46
-1970,cook,Monument,1,47
-1970,cook,Plaque,1,48
-1970,cook,Technology,1,49
-1970,cook,Park,1,50
-1970,cook,Garden,1,51
-1970,cook,Monument,1,52
-1970,cook,Fountain,1,53
-1970,cook,Tree,1,54
-1970,cook,Monument,1,55
-1970,cook,Monument,1,56
-1970,cook,Fountain,1,57
-1970,cook,Fountain,1,58
-1970,cook,Monument,1,59
-1970,cook,Structure,1,60
-1970,cook,Structure,1,61
-1970,cook,Garden,1,62
-1970,cook,Trees,1,63
-1970,cook,Plaque,1,64
-1970,cook,Monument,1,65
-1970,cook,Technology,1,66
-1970,cook,Monument,1,67
-1970,cook,Monument,1,68
-1970,cook,Monument,1,69
-1970,cook,Monument,1,70
-1970,cook,Structure,1,71
-1970,cook,Monument,1,72
-1970,cook,Monument,1,73
-1970,cook,Monument,1,74
-1970,cook,Monument,1,75
-1970,cook,Structure,1,76
-1970,cook,Monument,1,77
-1970,cook,Garden,1,78
-1970,cook,Monument,1,79
-1970,cook,Monument,1,80
-1970,cook,Garden,1,81
-1971,macquarie,Monument,1,82
-1971,macquarie,Monument,1,83
-1971,cook,Structure,1,84
-1971,cook,Technology,1,85
-1971,cook,Garden,1,86
-1972,macquarie,Monument,1,87
-1973,cook,Monument,1,88
-1974,cook,Plaque,1,89
-1974,cook,Plaque,1,90
-1975,macquarie,Monument,1,91
-1978,macquarie,Monument,1,92
-1980,macquarie,Plaque,1,93
-1982,solander,Garden,1,94
-1985,macquarie,Monument,1,95
-1985,banks,Plaque,1,96
-1986,macquarie,Monument,1,97
-1986,macquarie,Monument,1,98
-1988,macquarie,Structure,1,99
-1988,macquarie,Sculpture,1,100
-1988,macquarie,Monument,1,101
-1988,macquarie,Monument,1,102
-1988,macquarie,Monument,1,103
-1988,macquarie,Monument,1,104
-1988,macquarie,Monument,1,105
-1988,cook,Sculpture,1,106
-1988,cook,Plaque,1,107
-1988,cook,Structure,1,108
-1988,cook,Monument,1,109
-1990,macquarie,Plaque,1,110
-1992,macquarie,Plaque,1,111
-1992,macquarie,Monument,1,112
-1993,macquarie,Plaque,1,113
-1994,macquarie,Sculpture,1,114
-1994,banks,Flagpole,1,115
-1995,cook,Park,1,116
-1995,banks,Sculpture,1,117
-1997,cook,Plaque,1,118
-1998,macquarie,Sculpture,1,119
-2000,macquarie,Monument,1,120
-2000,banks,Structure,1,121
-2000,banks,Monument,1,122
-2000,banks,Monument,1,123
-2007,macquarie,Monument,1,124
-2007,macquarie,Monument,1,125
-2008,macquarie,Monument,1,126
-2008,cook,Art,1,127
-2010,macquarie,Plaque,1,128
-2010,macquarie,Plaque,1,129
-2010,macquarie,Plaque,1,130
-2011,macquarie,Monument,1,131
-2011,macquarie,Structure,1,132
-2012,macquarie,Sculpture,1,133
-2013,macquarie,Plaque,1,134
-2013,macquarie,Plaque,1,135
-2013,macquarie,Monument,1,136
-2013,macquarie,Structure,1,137
-2013,macquarie,Sculpture,1,138
-2013,cook,Monument,1,139
-2013,banks,Plaque,1,140
-2014,cook,Sculpture,1,141
-2015,macquarie,Plaque,1,142
-2016,macquarie,Sculpture,1,143
-2017,macquarie,Plaque,1,144
-2018,macquarie,Monument,1,145
-2018,macquarie,Monument,1,146
+Year,Figure,Monument_Type,value,group,id
+1810,macquarie,Grave,1,Colonial Expansion,1
+1818,macquarie,Monument,1,Colonial Expansion,1
+1818,Phillip,Monument,1,First Fleet,2
+1844,banks,Monument,1,Voyage of Endeavour,1
+1854,cook,Monument,1,Voyage of Endeavour,1
+1870,cook,Monument,1,Voyage of Endeavour,1
+1879,cook,Sculpture,1,Voyage of Endeavour,1
+1879,cook,Sculpture,1,Voyage of Endeavour,2
+1888,cook,Monument,1,Voyage of Endeavour,1
+1890,macquarie,Technology,1,Colonial Expansion,1
+1895,macquarie,Monument,1,Colonial Expansion,1
+1900,macquarie,Monument,1,Colonial Expansion,1
+1900,macquarie,Plaque,1,Colonial Expansion,2
+1906,cook,Sculpture,1,Voyage of Endeavour,1
+1912,Phillip,Monument,1,First Fleet,1
+1914,solander,Monument,1,Voyage of Endeavour,1
+1920,macquarie,Monument,1,Colonial Expansion,1
+1924,cook,Monument,1,Voyage of Endeavour,1
+1925,cook,Monument,1,Voyage of Endeavour,1
+1926,macquarie,Monument,1,Colonial Expansion,1
+1926,cook,Monument,1,Voyage of Endeavour,2
+1927,Phillip,Monument,1,First Fleet,1
+1929,macquarie,Monument,1,Colonial Expansion,1
+1929,Phillip,Monument,1,First Fleet,2
+1929,Phillip,Monument,1,First Fleet,3
+1930,macquarie,Monument,1,Colonial Expansion,1
+1932,Phillip,Monument,1,First Fleet,1
+1933,cook,Monument,1,Voyage of Endeavour,1
+1934,cook,Structure,1,Voyage of Endeavour,1
+1934,cook,Plaque,1,Voyage of Endeavour,2
+1936,macquarie,Monument,1,Colonial Expansion,1
+1938,macquarie,Technology,1,Colonial Expansion,1
+1938,macquarie,Garden,1,Colonial Expansion,2
+1938,Phillip,Garden,1,First Fleet,3
+1939,macquarie,Monument,1,Colonial Expansion,1
+1939,macquarie,Monument,1,Colonial Expansion,2
+1939,Phillip,Monument,1,First Fleet,3
+1945,macquarie,Trees,1,Colonial Expansion,1
+1947,banks,Monument,1,Voyage of Endeavour,1
+1948,cook,Plaque,1,Voyage of Endeavour,1
+1951,macquarie,Monument,1,Colonial Expansion,1
+1952,Phillip,Plaque,1,First Fleet,1
+1952,Phillip,Monument,1,First Fleet,2
+1953,cook,Monument,1,Voyage of Endeavour,1
+1954,Phillip,Sculpture,1,First Fleet,1
+1956,macquarie,Monument,1,Colonial Expansion,1
+1956,Phillip,Monument,1,First Fleet,2
+1960,macquarie,Monument,1,Colonial Expansion,1
+1961,macquarie,Plaque,1,Colonial Expansion,1
+1961,cook,Monument,1,Voyage of Endeavour,2
+1962,macquarie,Monument,1,Colonial Expansion,1
+1963,Phillip,Trees,1,First Fleet,1
+1964,banks,Sculpture,1,Voyage of Endeavour,1
+1965,macquarie,Plaque,1,Colonial Expansion,1
+1967,macquarie,Plaque,1,Colonial Expansion,1
+1967,macquarie,Monument,1,Colonial Expansion,2
+1967,Phillip,Monument,1,First Fleet,3
+1968,macquarie,Plaque,1,Colonial Expansion,1
+1968,macquarie,Monument,1,Colonial Expansion,2
+1970,cook,Monument,1,Voyage of Endeavour,1
+1970,cook,Monument,1,Voyage of Endeavour,2
+1970,cook,Plaque,1,Voyage of Endeavour,3
+1970,cook,Technology,1,Voyage of Endeavour,4
+1970,cook,Park,1,Voyage of Endeavour,5
+1970,cook,Garden,1,Voyage of Endeavour,6
+1970,cook,Monument,1,Voyage of Endeavour,7
+1970,cook,Fountain,1,Voyage of Endeavour,8
+1970,cook,Tree,1,Voyage of Endeavour,9
+1970,cook,Monument,1,Voyage of Endeavour,10
+1970,cook,Monument,1,Voyage of Endeavour,11
+1970,cook,Fountain,1,Voyage of Endeavour,12
+1970,cook,Fountain,1,Voyage of Endeavour,13
+1970,cook,Monument,1,Voyage of Endeavour,14
+1970,cook,Structure,1,Voyage of Endeavour,15
+1970,cook,Structure,1,Voyage of Endeavour,16
+1970,cook,Garden,1,Voyage of Endeavour,17
+1970,cook,Trees,1,Voyage of Endeavour,18
+1970,cook,Plaque,1,Voyage of Endeavour,19
+1970,cook,Monument,1,Voyage of Endeavour,20
+1970,cook,Technology,1,Voyage of Endeavour,21
+1970,cook,Monument,1,Voyage of Endeavour,22
+1970,cook,Monument,1,Voyage of Endeavour,23
+1970,cook,Monument,1,Voyage of Endeavour,24
+1970,cook,Monument,1,Voyage of Endeavour,25
+1970,cook,Structure,1,Voyage of Endeavour,26
+1970,cook,Monument,1,Voyage of Endeavour,27
+1970,cook,Monument,1,Voyage of Endeavour,28
+1970,cook,Monument,1,Voyage of Endeavour,29
+1970,cook,Monument,1,Voyage of Endeavour,30
+1970,cook,Structure,1,Voyage of Endeavour,31
+1970,cook,Monument,1,Voyage of Endeavour,32
+1970,cook,Garden,1,Voyage of Endeavour,33
+1970,cook,Monument,1,Voyage of Endeavour,34
+1970,cook,Monument,1,Voyage of Endeavour,35
+1970,cook,Garden,1,Voyage of Endeavour,36
+1970,Phillip,Monument,1,First Fleet,37
+1971,macquarie,Monument,1,Colonial Expansion,1
+1971,macquarie,Monument,1,Colonial Expansion,2
+1971,cook,Structure,1,Voyage of Endeavour,3
+1971,cook,Technology,1,Voyage of Endeavour,4
+1971,cook,Garden,1,Voyage of Endeavour,5
+1972,macquarie,Monument,1,Colonial Expansion,1
+1972,Flinders,Monument,1,First Fleet,2
+1973,cook,Monument,1,Voyage of Endeavour,1
+1974,cook,Plaque,1,Voyage of Endeavour,1
+1974,cook,Plaque,1,Voyage of Endeavour,2
+1975,macquarie,Monument,1,Colonial Expansion,1
+1978,macquarie,Monument,1,Colonial Expansion,1
+1980,macquarie,Plaque,1,Colonial Expansion,1
+1980,Phillip,Sculpture,1,First Fleet,2
+1982,solander,Garden,1,Voyage of Endeavour,1
+1982,Flinders,Monument,1,First Fleet,2
+1983,Phillip,Plaque,1,First Fleet,1
+1985,macquarie,Monument,1,Colonial Expansion,1
+1985,banks,Plaque,1,Voyage of Endeavour,2
+1986,macquarie,Monument,1,Colonial Expansion,1
+1986,macquarie,Monument,1,Colonial Expansion,2
+1987,Phillip,Sculpture,1,First Fleet,1
+1987,Phillip,Structure,1,First Fleet,2
+1988,macquarie,Structure,1,Colonial Expansion,1
+1988,macquarie,Sculpture,1,Colonial Expansion,2
+1988,macquarie,Monument,1,Colonial Expansion,3
+1988,macquarie,Monument,1,Colonial Expansion,4
+1988,macquarie,Monument,1,Colonial Expansion,5
+1988,macquarie,Monument,1,Colonial Expansion,6
+1988,macquarie,Monument,1,Colonial Expansion,7
+1988,cook,Sculpture,1,Voyage of Endeavour,8
+1988,cook,Plaque,1,Voyage of Endeavour,9
+1988,cook,Structure,1,Voyage of Endeavour,10
+1988,cook,Monument,1,Voyage of Endeavour,11
+1988,Phillip,Plaque,1,First Fleet,12
+1988,Phillip,Plaque,1,First Fleet,13
+1988,Phillip,Monument,1,First Fleet,14
+1988,Phillip,Plaque,1,First Fleet,15
+1988,Phillip,Plaque,1,First Fleet,16
+1988,Phillip,Structure,1,First Fleet,17
+1988,Phillip,Monument,1,First Fleet,18
+1988,Phillip,Monument,1,First Fleet,19
+1988,Phillip,Plaque,1,First Fleet,20
+1988,Phillip,Tree,1,First Fleet,21
+1988,Phillip,Monument,1,First Fleet,22
+1988,Phillip,Plaque,1,First Fleet,23
+1988,Phillip,Monument,1,First Fleet,24
+1988,Phillip,Monument,1,First Fleet,25
+1988,Phillip,Tree,1,First Fleet,26
+1988,Phillip,Monument,1,First Fleet,27
+1988,Phillip,Tree,1,First Fleet,28
+1988,Phillip,Monument,1,First Fleet,29
+1988,Phillip,Park,1,First Fleet,30
+1988,Phillip,Monument,1,First Fleet,31
+1988,Phillip,Plaque,1,First Fleet,32
+1988,Phillip,Art,1,First Fleet,33
+1988,Phillip,Plaque,1,First Fleet,34
+1988,Phillip,Plaque,1,First Fleet,35
+1988,Phillip,Plaque,1,First Fleet,36
+1988,Phillip,Monument,1,First Fleet,37
+1988,Phillip,Monument,1,First Fleet,38
+1988,Phillip,Monument,1,First Fleet,39
+1988,Phillip,Monument,1,First Fleet,40
+1988,Phillip,Park,1,First Fleet,41
+1988,Phillip,Park,1,First Fleet,42
+1988,Phillip,Park,1,First Fleet,43
+1988,Phillip,Tree,1,First Fleet,44
+1988,Phillip,Structure,1,First Fleet,45
+1988,Phillip,Fountain,1,First Fleet,46
+1988,Phillip,Plaque,1,First Fleet,47
+1988,Phillip,Monument,1,First Fleet,48
+1988,Phillip,Technology,1,First Fleet,49
+1988,Phillip,Monument,1,First Fleet,50
+1988,Phillip,Park,1,First Fleet,51
+1988,Phillip,Plaque,1,First Fleet,52
+1988,Phillip,Monument,1,First Fleet,53
+1988,Phillip,Monument,1,First Fleet,54
+1988,Phillip,Plaque,1,First Fleet,55
+1988,Phillip,Park,1,First Fleet,56
+1988,Phillip,Park,1,First Fleet,57
+1988,Phillip,Plaque,1,First Fleet,58
+1988,Phillip,Plaque,1,First Fleet,59
+1988,Phillip,Structure,1,First Fleet,60
+1988,Phillip,Monument,1,First Fleet,61
+1988,Phillip,Structure,1,First Fleet,62
+1988,Phillip,Technology,1,First Fleet,63
+1988,Phillip,Garden,1,First Fleet,64
+1988,Phillip,Monument,1,First Fleet,65
+1988,Phillip,Plaque,1,First Fleet,66
+1988,Phillip,Monument,1,First Fleet,67
+1988,Phillip,Seat,1,First Fleet,68
+1988,Phillip,Tree,1,First Fleet,69
+1988,Phillip,Structure,1,First Fleet,70
+1988,Phillip,Park,1,First Fleet,71
+1988,Phillip,Monument,1,First Fleet,72
+1988,Phillip,Flagpole,1,First Fleet,73
+1988,Phillip,Trees,1,First Fleet,74
+1988,Phillip,Monument,1,First Fleet,75
+1988,Phillip,Garden,1,First Fleet,76
+1988,Phillip,Monument,1,First Fleet,77
+1988,Phillip,Plaque,1,First Fleet,78
+1988,Phillip,Plaque,1,First Fleet,79
+1988,Phillip,Plaque,1,First Fleet,80
+1988,Phillip,Monument,1,First Fleet,81
+1988,Phillip,Structure,1,First Fleet,82
+1988,Phillip,Plaque,1,First Fleet,83
+1988,Phillip,Monument,1,First Fleet,84
+1988,Phillip,Plaque,1,First Fleet,85
+1988,Phillip,Plaque,1,First Fleet,86
+1988,Phillip,Plaque,1,First Fleet,87
+1988,Phillip,Monument,1,First Fleet,88
+1988,Phillip,Park,1,First Fleet,89
+1988,Phillip,Plaque,1,First Fleet,90
+1988,Phillip,Window,1,First Fleet,91
+1989,Phillip,Structure,1,First Fleet,1
+1990,macquarie,Plaque,1,Colonial Expansion,1
+1992,macquarie,Plaque,1,Colonial Expansion,1
+1992,macquarie,Monument,1,Colonial Expansion,2
+1993,macquarie,Plaque,1,Colonial Expansion,1
+1993,Phillip,Tree,1,First Fleet,2
+1994,macquarie,Sculpture,1,Colonial Expansion,1
+1994,banks,Flagpole,1,Voyage of Endeavour,2
+1995,cook,Park,1,Voyage of Endeavour,1
+1995,banks,Sculpture,1,Voyage of Endeavour,2
+1995,Phillip,Honour Roll,1,First Fleet,3
+1997,cook,Plaque,1,Voyage of Endeavour,1
+1998,macquarie,Sculpture,1,Colonial Expansion,1
+1999,Phillip,Monument,1,First Fleet,1
+2000,macquarie,Monument,1,Colonial Expansion,1
+2000,banks,Structure,1,Voyage of Endeavour,2
+2000,banks,Monument,1,Voyage of Endeavour,3
+2000,banks,Monument,1,Voyage of Endeavour,4
+2002,Flinders,Monument,1,First Fleet,1
+2002,Phillip,Plaque,1,First Fleet,2
+2003,Phillip,Sculpture,1,First Fleet,1
+2003,Phillip,Plaque,1,First Fleet,2
+2004,Phillip,Plaque,1,First Fleet,1
+2007,macquarie,Monument,1,Colonial Expansion,1
+2007,macquarie,Monument,1,Colonial Expansion,2
+2008,macquarie,Monument,1,Colonial Expansion,1
+2008,cook,Art,1,Voyage of Endeavour,2
+2010,macquarie,Plaque,1,Colonial Expansion,1
+2010,macquarie,Plaque,1,Colonial Expansion,2
+2010,macquarie,Plaque,1,Colonial Expansion,3
+2010,Phillip,Sculpture,1,First Fleet,4
+2011,macquarie,Monument,1,Colonial Expansion,1
+2011,macquarie,Structure,1,Colonial Expansion,2
+2012,macquarie,Sculpture,1,Colonial Expansion,1
+2012,Flinders,Plaque,1,First Fleet,2
+2013,macquarie,Plaque,1,Colonial Expansion,1
+2013,macquarie,Plaque,1,Colonial Expansion,2
+2013,macquarie,Monument,1,Colonial Expansion,3
+2013,macquarie,Structure,1,Colonial Expansion,4
+2013,macquarie,Sculpture,1,Colonial Expansion,5
+2013,cook,Monument,1,Voyage of Endeavour,6
+2013,banks,Plaque,1,Voyage of Endeavour,7
+2014,cook,Sculpture,1,Voyage of Endeavour,1
+2015,macquarie,Plaque,1,Colonial Expansion,1
+2016,macquarie,Sculpture,1,Colonial Expansion,1
+2017,macquarie,Plaque,1,Colonial Expansion,1
+2018,macquarie,Monument,1,Colonial Expansion,1
+2018,macquarie,Monument,1,Colonial Expansion,2
